@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>
+                <a href="/">Tech Blog</a>
+            </h1>
+        
+            <nav>
+                <a href="/">Home</a>
+                <a href="/dashboard">Dashboard</a>
+                {{#if loggedIn}}
+                <button id="logout"></button>
+                {{else}}
+                <a href="/login">login</a>
+            </nav>
+        </header>
+    </div>
+    
+    <main>
+        {{{ body }}}
+    </main>
+
+
+</body>
+</html>
