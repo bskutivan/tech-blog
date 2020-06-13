@@ -4,10 +4,13 @@
         <label for="post-title" class="form-label">Title</label>
         <input name="post-title" type="text" value="{{post.title}}" class="form-input"/>
 
-        <label for="content" class="form-label">Content</label>
-        <input name="content" type="text" value="{{post.contents}}" class="form-input" />
+        <label for="post-contents" class="form-label">Content</label>
+        <input name="post-contents" type="text" value="{{post.contents}}" class="form-input" />
 
         <button type="submit" class="btn">Update Post</button>
         <button type="submit" class="delete-btn">Delete Post</button>
     </form>
 </div>
+
+<script src="/javascript/delete-post.js"></script>
+<script src="/javascript/edit-post.js"></script>
