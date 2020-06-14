@@ -142,7 +142,8 @@ max-width: 75%;
 .form-label,
 .form-input,
 .form-textarea,
-.new-post-form {
+.new-post-form,
+.edit-post-form {
 display: block;
 }
 
@@ -156,11 +157,11 @@ display: block;
     border-color: var(--dark);
 }
 
-#post-title {
+.post-title {
     height: 30px
 }
 
-#post-contents {
+.post-contents {
     height: 70px;
 }
 
