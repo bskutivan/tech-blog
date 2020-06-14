@@ -207,11 +207,19 @@ display: block;
     .btn {
         width: 13%;
     }
+    .long-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .btn {
         width: 13%;
+    }
+    .long-btn {
+        width: 100%;
+        margin-top: 10px;
     }
 }
 
