@@ -10,7 +10,7 @@ const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const sess = {
     secret: 'Shhhhhh',
-    cookie: { maxAge: },
+    cookie: { maxAge: 75000 },
     resave: true,
     rolling: true,
     saveUninitialized: true,
